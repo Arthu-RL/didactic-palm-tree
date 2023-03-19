@@ -61,7 +61,7 @@ def remake(tasks, save_tasks):
 l1 = []
 l2 = []
 while True:
-    print("Commands: tolist, undo, remake, or save (to end the program, tasks will be in the tasks.json file)")
+    print("Commands: tolist, undo, remake, or save (to end the program, tasks will be saved in the tasks.json file(only if you used tolist command)")
     task = input("Type a task or a command: ")
     print()
 
