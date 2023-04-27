@@ -24,7 +24,7 @@ modelClassifier.fit(X, y)
 X_test = ["O tempo ta frio hoje", "Vamos programar um site", "Vou começar a fazer exercícios físicos", "Assistir campeonatos de um jogo é legal"]
 y_test = ["clima", "programar", "exercicios", "esportes"]
 
-# Mapeamento da matriz texto para uma uma matriz numérica
+# Mapeamento da matriz texto para uma uma matriz numérica com um formato que é de fácil entendimento para o algoritmo Multinomial Naive Bayes.
 
 X_test = modelVectorizer.transform(X_test)
 
